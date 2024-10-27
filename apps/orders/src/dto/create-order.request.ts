@@ -15,6 +15,4 @@ export class CreateOrderRequest {
 
   @IsPhoneNumber()
   phoneNumber: string;
-
-  id?: string;
 }
